@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block active_in_menu_PRICE %}class="active"{% endblock active_in_menu_PRICE %}
+{% block title %}Prices{% endblock title %}
+
+{% block dop_css %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/foundation.css' %}">
+<style>
+
+ #first_otstup {margin-top:150px; margin-bottom:100px;}
+
+</style>
+
+{% endblock dop_css %}
+
+
+{% block content %}
+
+
+<!--
+
+<div class="row" id="first_otstup" style="margin:auto; margin-top:50px;">
+
+  <div class="small-4 columns">
+    <div class="image-wrapper overlay-fade-in">
+      <img src="http://xit.uz/uploads/posts/2015-12/1450437505_kollaz.png" />
+      <div class="image-overlay-content">
+        <h2>МИНИМАЛЬНЫЙ</h2>
+        <p class="price">от 400грн./м<sup>2</sup></p>
+        <a href="#" class="button">Get it</a>
+      </div>
+    </div>
+  </div>
+  <div class="small-4 columns">
+    <div class="image-wrapper overlay-slide-in-left">
+      <img src="https://tourneau.scene7.com/is/image/tourneau/ZEN0101011?hei=450&wid=300&fmt=png-alpha&resMode=bicub&op_sharpen=1" />
+      <div class="image-overlay-content">
+        <h2>СТАНДАРТ</h2>
+        <p class="price">$2319.99</p>
+        <a href="#" class="button">Buy Me</a>
+      </div>
+    </div>
+  </div>
+  <div class="small-4 columns">
+    <div class="image-wrapper overlay-fade-in-new-background">
+      <img src="https://tourneau.scene7.com/is/image/tourneau/FRK0100001?hei=450&wid=300&fmt=png-alpha&resMode=bicub&op_sharpen=1" />
+      <div class="image-overlay-content">
+        <h2>VIP</h2>
+        <p class="price">$189,000</p>
+        <a href="#" class="button">Want!</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="col-sm-12">
+  <div class="col-sm-4 col-md-4">
+    <div style="text-align:center; color: #ffffff;" class="thumbnail">
+      <h3 style="background-color:#f27b13; padding:20px 10px 15px 10px; margin:0px">Базовый</h3>
+      <div style="" class="caption">
+        <h2 style="color:#ffffff; background-color:#e07000; margin:0px"><small style="color:#ffffff;">от</small> 390 <small style="color:#ffffff;">грн/м<sup>2</sup></small></h2>
+        <p style="background-color:#d8d8d8; text-color: black">Разрабатывается стилистическое решение интерьера и предоставляется общий набор планов, чережей и экспликаций, необходимых для осуществления ремонтных работ и последующей комплектации помещения выбранным оборудование и мебелью. Включен набор разверток стен, с указанием спецификаций материалов, привязки оборудования, а также схематическими  чертежами мебели.</p>
+          <h4 style="text-align:center; margin:0px">Дополнительные услуги:</h4>
+          <p style="text-align:center; margin:0px">3d визуализация - от 250 грн/м</p>
+          <p style="text-align:center; margin:0px">Авторский надзор - от 280 грн/м</p>
+          <p style="text-align:center">Чертежи мебели цена договорная</p>
+          <p style="background-color:#d8d8d8; text-color: black; margin: 0px">Срок реализации 3-4 недели</p>
+          <p style="background-color:#d8d8d8; text-color: black; margin: 0px">(зависит от сложности проекта)</p>
+       <!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-4">
+    <div style="text-align:center; color: #ffffff;" class="thumbnail">
+      <h3 style="background-color:#f27b13; padding:20px 10px 15px 10px; margin:0px">Стандарт</h3>
+      <div style="" class="caption">
+        <h2 style="color:#ffffff; background-color:#e07000; margin:0px"><small style="color:#ffffff;">от</small> 550 <small style="color:#ffffff;">грн/м<sup>2</sup></small></h2>
+        <p style="background-color:#d8d8d8; text-color: black">Разрабатывается стилистическое решение интерьера с последующей 3d визуализации помещений, предоставляется общий набор планов, чережей и экспликаций, необходимых для осуществления ремонтных работ и последующей комплектации помещения выбранным оборудование и мебелью. Также включен набор детальных разверток стен, с подробными чертежами мебели и привязкой оборудования.</p>
+          <h4 style="text-align:center; margin:0px">Дополнительные услуги:</h4>
+          <p style="text-align:center; margin:0px">Авторский надзор - от 280 грн/м</p>
+          <p style="text-align:center">Подбор материалов, мебели и освещения по каталогам и с выездом по магазинам и салонам.</p>
+          <p style="background-color:#d8d8d8; text-color: black; margin: 0px">Срок реализации 6-9 недели</p>
+          <p style="background-color:#d8d8d8; text-color: black; margin: 0px">(зависит от сложности проекта)</p>
+       <!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-4 col-md-4">
+    <div style="text-align:center; color: #ffffff;" class="thumbnail">
+      <h3 style="background-color:#f27b13; padding:20px 10px 15px 10px; margin:0px">VIP</h3>
+      <div style="" class="caption">
+        <h2 style="color:#ffffff; background-color:#e07000; margin:0px"><small style="color:#ffffff;">от</small> 790 <small style="color:#ffffff;">грн/м<sup>2</sup></small></h2>
+        <strong><p style="background-color:#d8d8d8; text-color: black">Пакет "VIP" содержит полный набор услуг, указанных для пакета "Стандарт", однако дополнен услугой "Авторский надзор", которая позволяет проводить реализацию проекта под контролем студии "MS-STUDIO". Также мы предоставим папку с технической документацией и спецификациями на осветительное, сантехническое и электрооборудование, включенное в дизайн-проект.</p></strong>
+          <h4 style="text-align:center; margin:0px">Предоставляются услуги услуги:</h4>
+
+          <p style="text-align:center; margin:0px">Подбор материалов, мебели и освещения по каталогам и с выездом по магазинам и салонам.</p>
+          <p style="text-align:center; margin:0px">Выезд на объект.</p>
+          <p style="background-color:#d8d8d8; text-color: black; margin: 0px">Срок реализации более 9 недели</p>
+          <p style="background-color:#d8d8d8; text-color: black; margin: 0px">(зависит от обьема ремонтных работ)</p>
+       <!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+      </div>
+    </div>
+  </div>
+
+
+<!--   <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img src="{% static 'images/u8933.png' %}" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+-->
+
+</div>
+
+
+{% endblock content %}
